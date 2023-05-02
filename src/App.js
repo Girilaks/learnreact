@@ -3,6 +3,7 @@ import Classcomponent from './components/Classcomponent';
 import Functionalcomponent from './components/Functionalcomponent';
 import ManageStateCC from './components/ManageStateCC';
 import HooksFC from './components/HooksFC';
+import RenderListFC from './components/RenderListFC';
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
       <ManageStateCC/>
 
       <HooksFC/>
+
+      <RenderListFC/>
 
     </div>
   );
