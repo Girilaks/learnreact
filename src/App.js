@@ -5,6 +5,11 @@ import ManageStateCC from './components/ManageStateCC';
 import HooksFC from './components/HooksFC';
 import RenderListFC from './components/RenderListFC';
 
+// Components for meals projects
+import Navbar from './components/meals_components/Navbar';
+import BodyMeals from './components/meals_components/BodyMeals';
+import FooterMeals from './components/meals_components/FooterMeals';
+
 function App() {
   return (
     <div className="App">
@@ -12,12 +17,16 @@ function App() {
 
       <Functionalcomponent  name="Giri" age="34"/> */}
 
-      <ManageStateCC/>
+      {/* <ManageStateCC/>
 
       <HooksFC/>
 
-      <RenderListFC/>
+      <RenderListFC/> */}
 
+      {/* Meals Project code */}
+      <Navbar/>
+      <BodyMeals />
+      <FooterMeals />
     </div>
   );
 }
